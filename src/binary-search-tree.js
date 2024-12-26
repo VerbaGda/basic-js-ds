@@ -107,7 +107,7 @@ class BinarySearchTree {
 		if (!this.rootNode) {
 			return;
 		}
-		let node=this.rootNode;
+		let node = this.rootNode;
 		while (node.left) {
 			node = node.left;
 		}
@@ -118,7 +118,7 @@ class BinarySearchTree {
 		if (!this.rootNode) {
 			return;
 		}
-		let node=this.rootNode;
+		let node = this.rootNode;
 		while (node.right) {
 			node = node.right;
 		}
